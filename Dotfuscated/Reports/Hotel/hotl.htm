@@ -1,0 +1,232 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <!--Address bar-->
+    <table style="width: 100%">
+        <tr>
+            <td colspan="2" style="font-family: 'Arial MT', Arial; font-size: 14px; text-align: center">
+                <b>HOTEL PHOENIX PVT. LTD.</b>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="font-family: 'Arial MT', Arial; font-size: 10px; text-align: center">
+                <b>JP Road, Thamel</b>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="font-family: 'Arial MT', Arial; font-size: 10px; text-align: center">
+                <b>Kathmandu, Nepal</b>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="font-family: 'Arial MT', Arial; font-size: 10px; text-align: center">
+                <b>PAN NO:304310720</b>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="font-family: 'Arial MT', Arial; font-size: 10px; text-align: center">
+                <b>Phone: 977-01-4246949, 4244298</b>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="font-family: 'Arial MT', Arial; font-size: 10px; text-align: center">
+                <b>Mobile: 977-9813266787, 9808965599</b>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;
+            </td>
+            <td>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" style="font-family: Arial; font-size: 10px;">Bill No : #BillNo
+            </td>
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">Date : #Date<br />
+            </td>
+        </tr>
+        <tr>
+            <td style="font-family: Arial; font-size: 10px;">Customer’s Name : #CustomerName
+            </td>
+            <td style="font-family: 'Courier PS', Courier; font-weight: bold; font-size: 12px; color: Blue;"
+                colspan="3"></td>
+        </tr>
+    </table>
+    <!--Main table bar-->
+    <table style="width: 100%" border="1">
+        <tr>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;">
+                <b>Sn.</b>
+            </td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;">
+                <b>Room No.</b>
+            </td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;">
+                <b>Rate</b>
+            </td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;">
+                <b>Check In</b>
+            </td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;">
+                <b>Check Out</b>
+            </td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;">
+                <b>Pax</b>
+            </td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;">
+                <b>Days</b>
+            </td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;">
+                <b>Amount</b>
+            </td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;">
+                <b>Discount</b>
+            </td>
+            <!--ConditionalStart:Tax-->
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">
+                <b>Tax</b>
+            </td>
+            <!--ConditionalEnd:Tax-->
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;">
+                <b>NetAmount</b>
+            </td>
+        </tr>
+        <!--RepeatStart-->
+        <tr>
+            <td valign="top" align="left" style="font-family: Arial; font-size: 10px;">##Sno
+            </td>
+            <td valign="top" align="left" style="font-family: Arial; font-size: 10px;">##Description
+            </td>
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">##Rate
+            </td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;">##colInDate
+            </td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;">##colOutDate
+            </td>
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">##colPAX
+            </td>
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">##Days
+            </td>
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">##Amount
+            </td>
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">##Discount
+            </td>
+            <!--ConditionalStart:Tax-->
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">##Vat
+            </td>
+            <!--ConditionalEnd:Tax-->
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">##NetAmount
+            </td>
+        </tr>
+        <!--RepeatEnd-->
+        <!--Summary-->
+        <tr>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;"></td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;"></td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;"></td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;"></td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;"></td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;"></td>
+            <td valign="top" align="center" style="font-family: Arial; font-size: 10px;">
+                <b>Total</b>
+            </td>
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">
+                <b>#Total</b>
+            </td>
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">
+                <b>#SumDiscount</b>
+            </td>
+            <!--ConditionalStart:Tax-->
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">
+                <b>#Tax</b>
+            </td>
+            <!--ConditionalEnd:Tax-->
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">
+                <b>#SumNet</b>
+            </td>
+        </tr>
+    </table>
+    <!--Summary bar-->
+    <table style="width: 100%">
+        <tr>
+            <td valign="top" style="font-family: Arial; font-size: 10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+            </td>
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">Due:
+                <br />
+            </td>
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">#SumDue
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" style="font-family: Arial; font-size: 10px;"></td>
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">Current Payment:
+                <br />
+            </td>
+            <td valign="top" align="right" style="font-family: Arial; font-size: 11px;">
+                <b>#Paid</b>
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" style="font-family: Arial; font-size: 10px;"></td>
+            <td valign="top" align="right" style="font-family: Arial; font-size: 11px;">Remaining Due:
+                <br />
+            </td>
+            <td valign="top" align="right" style="font-family: Arial; font-size: 10px;">
+                <b>#Remainig</b>
+                <br />
+            </td>
+        </tr>
+    </table>
+    <!--Footer-->
+    <table style="width: 100%">
+        <tr>
+            <td valign="top" align="center" colspan="2" style="font-family: Arial; font-size: 12px;">
+                <b>PLEASE RETURN YOUR KEY ON DEPARTURE</b>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" align="center" colspan="2" style="font-family: Arial; font-size: 10px;">I agree that I am responsible for the full payment of this bill in the event if
+                not paid by the Company, Organization or Person indicated
+            </td>
+        </tr>
+        <tr>
+            <td style="font-family: Arial; font-size: 10px;">
+                <p align="left" style="font-family: Arial; font-size: 10px;">
+                    Cashier: #Cashier<br />
+                    <br />
+                    ...................................
+                    <br />
+                    Cashier Signature<br />
+                </p>
+            </td>
+            <td style="font-family: Arial; font-size: 10px;">
+                <p align="right" style="font-family: Arial; font-size: 10px;">
+                    <br />
+                    <br />
+                    ............................
+                    <br />
+                    Guest Signature<br />
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" align="center" colspan="2" style="font-family: Arial; font-size: 10px;">Thank You for Honouring us by your visit
+            </td>
+        </tr>
+    </table>
+    <br />
+    <br />
+    <br />
+    <center>============================================================================================</center>
+    <br />
+    <br />
+    <br />
+</body>
+</html>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v2.3.dtd">
+<dotfuscator version="2.3">
+  <!--This is application generated code. Do not edit manually.-->
+  <global>
+    <option>suppressildasm</option>
+    <option>pdb</option>
+    <option>verbose</option>
+  </global>
+  <input>
+    <loadpaths />
+    <asmlist>
+      <inputassembly refid="bfdc1696-347a-48c5-bbdf-86d2d200ad6c">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Syscom2.dll" />
+      </inputassembly>
+      <inputassembly refid="0c95a409-5a74-4b62-8f91-c792955fea58">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Syscom3.dll" />
+      </inputassembly>
+      <inputassembly refid="04b9a315-b3b4-42da-99ce-d37d11b8ffd9">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Syscom4.dll" />
+      </inputassembly>
+      <inputassembly refid="77e8dfe2-8c23-4278-ab10-7b3921ea6f26">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Syscom5.dll" />
+      </inputassembly>
+      <inputassembly refid="a701084a-c4b4-4105-b2c2-d41088af71d6">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Syscom6.dll" />
+      </inputassembly>
+      <inputassembly refid="4759fbf5-3972-40b1-97a4-15ac3b0f60a1">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Syscom7.dll" />
+      </inputassembly>
+      <inputassembly refid="97f1eee2-5ee2-42bf-bab8-58d15b25a11f">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Syscom8.dll" />
+      </inputassembly>
+      <inputassembly refid="a54d314d-3b49-4d09-b8e0-52d32556f4f4">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Syscom9.dll" />
+      </inputassembly>
+      <inputassembly refid="e8a2a257-57b4-40ea-a58d-b23c0d5e0ff9">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Syscom10.dll" />
+      </inputassembly>
+      <inputassembly refid="fbb8e6da-d1b9-4edf-970c-d4948963130d">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Syscom11.dll" />
+      </inputassembly>
+      <inputassembly refid="80d827b7-d683-46e5-a85a-666bc444f9ec">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Updater.exe" />
+      </inputassembly>
+      <inputassembly refid="3b0f1e82-85f4-4602-b8cf-1012a97c3f7f">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="RestoSys.exe" />
+      </inputassembly>
+      <inputassembly refid="7cf68f5d-3998-4502-9efe-8c6806f8a62a">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Syscom1.dll" />
+      </inputassembly>
+      <inputassembly refid="a9132a28-430d-4731-85f4-62a5d8448c39">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="PopupCalculator.dll" />
+      </inputassembly>
+      <inputassembly refid="44d635be-c57c-43e8-b02b-8f11240ef31b">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Bsoft.DataCommon.dll" />
+      </inputassembly>
+      <inputassembly refid="bb8679e8-d410-438f-9483-d28d680ae0ee">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Bsoft.exe" />
+      </inputassembly>
+      <inputassembly refid="78f82c89-0137-4dbd-8e03-1fbe1ffea2fc">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="${configdir}\Release" name="Syscom12.exe" />
+      </inputassembly>
+    </asmlist>
+  </input>
+  <output>
+    <file dir="${configdir}\Dotfuscated" />
+  </output>
+  <renaming>
+    <option>xmlserialization</option>
+    <mapping>
+      <mapoutput overwrite="false">
+        <file dir="${configdir}\Dotfuscated" name="Map.xml" />
+        <transform />
+      </mapoutput>
+    </mapping>
+    <referencerulelist>
+      <referencerule rulekey="{2B7E7C8C-A39A-4db8-9DFC-6AFD38509061}" />
+      <referencerule rulekey="{229FD6F8-5BCC-427b-8F72-A7A413ECDF1A}" />
+      <referencerule rulekey="{6655B10A-FD58-462d-8D4F-5B1316DFF0FF}" />
+      <referencerule rulekey="{89769974-93E9-4e71-8D92-BE70E855ACFC}" />
+      <referencerule rulekey="{494EA3BA-B947-44B5-BEE8-A11CC85AAF9B}" />
+      <referencerule rulekey="{7D9C8B02-2383-420f-8740-A9760394C2C1}" />
+    </referencerulelist>
+  </renaming>
+  <controlflow level="high" />
+  <stringencrypt />
+  <sos mergeruntime="true">
+    <option>dontsendtamper</option>
+  </sos>
+  <smartobfuscation>
+    <smartobfuscationreport verbosity="all" overwrite="false" />
+  </smartobfuscation>
+</dotfuscator>
